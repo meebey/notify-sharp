@@ -1,5 +1,5 @@
 DOC_UPDATER = @MONODOCER@ -delete
-DOC_ASSEMBLER = @MDASSEMBLER@ --out notify-sharp-docs --ecma
+DOC_ASSEMBLER = @MDASSEMBLER@ --out notify-sharp-3-docs --ecma
 
 ASSEMBLIES = \
 	$(top_builddir)/src/notify-sharp.dll
@@ -10,16 +10,16 @@ if BUILD_DOCS
 
 monodocdir = $(DOCDIR)
 monodoc_DATA = \
-	notify-sharp-docs.zip \
-	notify-sharp-docs.tree \
-	$(srcdir)/notify-sharp-docs.source
+	notify-sharp-3-docs.zip \
+	notify-sharp-3-docs.tree \
+	$(srcdir)/notify-sharp-3-docs.source
 
 all:
 
 update-docs: $(ASSEMBLIES)
 	$(DOC_UPDATER) $(ASSEMBLIES_BUILD) -path:en
 
-notify-sharp-docs.zip notify-sharp-docs.tree: $(srcdir)/en/*/*.xml $(srcdir)/en/*.xml
+notify-sharp-3-docs.zip notify-sharp-3-docs.tree: $(srcdir)/en/*/*.xml $(srcdir)/en/*.xml
 	$(DOC_ASSEMBLER) $(srcdir)/en
 
 endif
@@ -27,11 +27,11 @@ endif
 EXTRA_DIST = \
 	$(srcdir)/en/*.xml \
 	$(srcdir)/en/*/*.xml \
-	$(srcdir)/notify-sharp-docs.source
+	$(srcdir)/notify-sharp-3-docs.source
 
 DISTCLEANFILES = \
-	notify-sharp-docs.zip \
-	notify-sharp-docs.tree
+	notify-sharp-3-docs.zip \
+	notify-sharp-3-docs.tree
 
 MAINTAINERCLEANFILES = \
 	Makefile.in

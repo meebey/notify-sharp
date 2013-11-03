@@ -14,6 +14,6 @@ notify-sharp.pc
 *.user*
 *.pidb
 bin/
-docs/notify-sharp-docs.tree
-docs/notify-sharp-docs.zip
+docs/notify-sharp-3-docs.tree
+docs/notify-sharp-3-docs.zip
 src/notify-sharp.dll
