@@ -86,7 +86,7 @@ done
 
 AC_OUTPUT([
 Makefile
-notify-sharp.pc
+notify-sharp-3.0.pc
 src/Makefile
 src/AssemblyInfo.cs
 docs/Makefile

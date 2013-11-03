@@ -1,13 +1,13 @@
 SUBDIRS = src docs
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = notify-sharp.pc
+pkgconfig_DATA = notify-sharp-3.0.pc
 
 EXTRA_DIST = \
-	notify-sharp.pc.in
+	notify-sharp-3.0.pc.in
 
 DISTCLEANFILES = \
-	notify-sharp.pc
+	notify-sharp-3.0.pc
 
 MAINTAINERCLEANFILES = \
 	INSTALL \
