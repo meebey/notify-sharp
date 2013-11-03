@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <monodoc>
-  <source provider="ecma" basefile="notify-sharp-docs" path="various" title="Notifications" />
+  <source provider="ecma" basefile="notify-sharp-3-docs" path="various" title="Notifications" />
 </monodoc>
 
