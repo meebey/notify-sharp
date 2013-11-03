@@ -10,7 +10,7 @@ config.sub
 configure
 install-sh
 missing
-notify-sharp.pc
+notify-sharp-3.0.pc
 *.user*
 *.pidb
 bin/
