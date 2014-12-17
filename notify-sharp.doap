@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+  <name xml:lang="en">notify-sharp</name>
+  <shortdesc xml:lang="en">library for desktop notifications</shortdesc>
+  <description>notify-sharp is a C# D-Bus client library for desktop
+               notifications as defined by the Desktop Notifications
+               Specification.</description>
+
+  <download-page rdf:resource="https://www.meebey.net/projects/notify-sharp/" />
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Mirco Bauer</foaf:name>
+      <foaf:mbox rdf:resource="mailto:meebey@meebey.net" />
+      <gnome:userid>mmmbauer</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+
+  <!-- Version Control -->
+  <repository>
+    <GitRepository>
+      <browse rdf:resource="http://git.gnome.org/cgit/notify-sharp" />
+      <location rdf:resource="git://git.gnome.org/notify-sharp" />
+    </GitRepository>
+  </repository>
+
+</Project>
