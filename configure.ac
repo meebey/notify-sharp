@@ -1,4 +1,4 @@
-AC_INIT([notify-sharp], [3.0.2])
+AC_INIT([notify-sharp], [3.0.3])
 AC_CONFIG_SRCDIR([src/Global.cs])
 
 AC_CANONICAL_SYSTEM
